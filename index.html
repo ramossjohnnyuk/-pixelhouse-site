@@ -3,140 +3,252 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#070708" />
-  <meta name="description" content="PixelHouse — branding, websites, landing pages, automação e IA para marcas que querem crescer." />
-  <title>PixelHouse — Design que gera resultados</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="PixelHouse — Design, websites, automação e IA para marcas que querem crescer." />
+  <title>PixelHouse — Design que gera resultados.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="PixelHouse, início">
-      <span class="brand-mark" aria-hidden="true"><i></i><b></b><em></em></span>
-      <span class="brand-word">PIXEL<span>HOUSE</span></span>
+  <div class="noise"></div>
+
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="PixelHouse">
+      <span class="brand-mark" aria-hidden="true">
+        <i class="sq a"></i><i class="sq b"></i><i class="tri"></i>
+      </span>
+      <span class="brand-name">PIXEL<span>HOUSE</span></span>
     </a>
-    <nav class="nav" aria-label="Navegação principal">
+
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="desktop-nav">
       <a href="#servicos">Serviços</a>
-      <a href="#cases">Projetos</a>
+      <a href="#cases">Cases</a>
       <a href="#processo">Processo</a>
-      <a href="#contato">Contato</a>
+      <a href="#sobre">Sobre</a>
+      <a class="nav-cta" href="#contato">Iniciar projeto</a>
     </nav>
-    <a class="btn btn-small" href="#contato">Iniciar projeto</a>
   </header>
 
+  <div class="mobile-menu">
+    <a href="#servicos">Serviços</a>
+    <a href="#cases">Cases</a>
+    <a href="#processo">Processo</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Iniciar projeto</a>
+  </div>
+
   <main id="top">
-    <section class="hero section-shell">
+    <section class="hero shell">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> PIXELHOUSE / DIGITAL STUDIO</p>
-        <h1>Design que transforma negócios em <strong>marcas desejadas.</strong></h1>
-        <p class="lead">Branding, websites, automação e IA para empresas que querem parecer maiores, vender melhor e operar de forma mais inteligente.</p>
+        <p class="eyebrow">PIXELHOUSE / DIGITAL STUDIO</p>
+        <h1>Design que transforma negócios em <em>marcas desejadas.</em></h1>
+        <p class="hero-text">Estratégia, design e tecnologia para construir marcas, sites e automações que fazem sua empresa parecer maior, vender melhor e operar com mais inteligência.</p>
         <div class="hero-actions">
-          <a class="btn" href="#contato">Iniciar um projeto <span>↗</span></a>
-          <a class="text-link" href="#cases">Ver projetos <span>↓</span></a>
+          <a class="btn primary" href="#contato">Iniciar um projeto <span>↗</span></a>
+          <a class="btn ghost" href="#cases">Ver trabalhos</a>
         </div>
-        <div class="capabilities" aria-label="Áreas de atuação">
-          <span>Branding</span><i></i><span>Web</span><i></i><span>Automação</span><i></i><span>IA</span>
+        <div class="micro-proof">
+          <span>Branding</span><b></b><span>Websites</span><b></b><span>Automação</span><b></b><span>IA</span>
         </div>
       </div>
 
-      <div class="hero-visual reveal" aria-hidden="true">
-        <div class="glow"></div>
-        <div class="frame frame-a"></div>
-        <div class="frame frame-b"></div>
-        <div class="frame frame-c"></div>
-        <div class="blue-plane plane-a"></div>
-        <div class="blue-plane plane-b"></div>
-        <div class="blue-core"></div>
-        <span class="axis-label axis-top">01</span>
-        <span class="axis-line"></span>
-        <span class="axis-label axis-bottom">05</span>
+      <div class="hero-stage" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="architecture">
+          <div class="slab slab-1"></div>
+          <div class="slab slab-2"></div>
+          <div class="slab slab-3"></div>
+          <div class="slab slab-4"></div>
+          <div class="blue-core"></div>
+        </div>
+        <div class="stage-meta">
+          <span>01</span>
+          <i></i>
+          <span>05</span>
+        </div>
       </div>
     </section>
 
-    <section class="statement section-shell reveal">
-      <p class="eyebrow"><span></span> O QUE MUDA</p>
-      <h2>Não entregamos só estética.<br><strong>Entregamos percepção de valor.</strong></h2>
-      <p>Quando design, posicionamento e tecnologia trabalham juntos, sua marca passa a comunicar autoridade antes mesmo da primeira conversa.</p>
-    </section>
-
-    <section id="servicos" class="section-shell section-block">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow"><span></span> O QUE FAZEMOS</p><h2>Soluções digitais para marcas que querem crescer.</h2></div>
-        <p>Do primeiro contato à experiência final, construímos uma presença digital coerente, premium e preparada para conversão.</p>
-      </div>
-      <div class="service-grid">
-        <article class="card reveal"><span class="icon">▦</span><div><small>01</small><h3>Branding</h3><p>Identidade visual, posicionamento, direção criativa e sistema de marca.</p></div></article>
-        <article class="card reveal"><span class="icon">◎</span><div><small>02</small><h3>Websites</h3><p>Sites rápidos, responsivos e pensados para transmitir autoridade.</p></div></article>
-        <article class="card reveal"><span class="icon">▤</span><div><small>03</small><h3>Landing Pages</h3><p>Páginas de alta clareza para campanhas, ofertas e geração de leads.</p></div></article>
-        <article class="card reveal"><span class="icon">ϟ</span><div><small>04</small><h3>Automação</h3><p>Fluxos de atendimento e operação que reduzem perdas e economizam tempo.</p></div></article>
-        <article class="card reveal"><span class="icon">✦</span><div><small>05</small><h3>Inteligência Artificial</h3><p>IA aplicada a conteúdo, processos, design e novas experiências digitais.</p></div></article>
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>DESIGN QUE GERA RESULTADOS.</span><span>PIXELHOUSE</span><span>WEBSITES</span><span>BRANDING</span><span>AUTOMAÇÃO</span><span>IA</span>
+        <span>DESIGN QUE GERA RESULTADOS.</span><span>PIXELHOUSE</span><span>WEBSITES</span><span>BRANDING</span><span>AUTOMAÇÃO</span><span>IA</span>
       </div>
     </section>
 
-    <section id="cases" class="section-shell section-block projects">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow"><span></span> PROJETOS</p><h2>Trabalho que precisa ser visto, não explicado.</h2></div>
-        <p>Esta área está preparada para receber seus cases reais. Por enquanto, mostramos a direção visual dos projetos que a PixelHouse pode entregar.</p>
-      </div>
-
-      <article class="project-feature reveal">
-        <div class="project-copy">
-          <span class="project-index">CASE / 01</span>
-          <h3>Landing pages que elevam a percepção da marca.</h3>
-          <p>Experiências editoriais, responsivas e construídas para transformar atenção em ação.</p>
-          <a href="#contato" class="text-link">Quero um projeto assim <span>↗</span></a>
+    <section id="servicos" class="section shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">O QUE FAZEMOS</p>
+          <h2>Soluções digitais com propósito e performance.</h2>
         </div>
-        <div class="device-stage" aria-label="Mockup demonstrativo de projeto">
-          <div class="laptop">
-            <div class="screen">
-              <div class="mock-nav">NEXORA <span>WORK / ABOUT / CONTACT</span></div>
-              <div class="mock-hero"><small>EXPERIÊNCIA DIGITAL</small><h4>Tecnologia que impulsiona o <strong>amanhã.</strong></h4><div class="mock-line"></div></div>
-            </div><div class="base"></div>
+        <p>Da identidade da marca à automação do atendimento. Criamos sistemas digitais completos para empresas que querem crescer com consistência.</p>
+      </div>
+
+      <div class="service-rail">
+        <article class="service-card reveal">
+          <span class="num">01</span>
+          <div class="icon glyph-brand"></div>
+          <h3>Branding</h3>
+          <p>Posicionamento, identidade visual e sistemas de marca que tornam sua empresa mais memorável.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="num">02</span>
+          <div class="icon glyph-web"></div>
+          <h3>Websites</h3>
+          <p>Sites rápidos, responsivos e com direção de arte premium para gerar confiança e conversão.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="num">03</span>
+          <div class="icon glyph-lp"></div>
+          <h3>Landing Pages</h3>
+          <p>Páginas focadas em uma única ação: captar, vender, agendar ou apresentar uma oferta.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="num">04</span>
+          <div class="icon glyph-auto"></div>
+          <h3>Automação</h3>
+          <p>Processos de atendimento e operação conectados para reduzir trabalho manual e ganhar escala.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="num">05</span>
+          <div class="icon glyph-ai"></div>
+          <h3>Inteligência Artificial</h3>
+          <p>IA aplicada ao conteúdo, atendimento e produtividade para acelerar o dia a dia do negócio.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cases" class="case-section">
+      <div class="shell">
+        <div class="case-intro reveal">
+          <p class="eyebrow">TRABALHOS / DIREÇÃO CRIATIVA</p>
+          <h2>Não entregamos estética.<br>Entregamos <em>percepção de valor.</em></h2>
+          <p>Um bom projeto muda como o cliente percebe sua empresa antes mesmo da primeira conversa.</p>
+        </div>
+
+        <article class="featured-case reveal">
+          <div class="case-copy">
+            <div class="case-tag">CASE CONCEITUAL / WEB</div>
+            <h3>Nexora</h3>
+            <p>Uma experiência digital construída para parecer precisa, tecnológica e confiável.</p>
+            <a href="#contato">Quero um projeto assim ↗</a>
           </div>
-          <div class="phone"><div class="phone-screen"><small>PULSE</small><h4>Energia para mover o que importa.</h4><div class="wind"></div></div></div>
-        </div>
-      </article>
-    </section>
 
-    <section id="processo" class="section-shell section-block">
-      <div class="section-heading compact reveal"><div><p class="eyebrow"><span></span> NOSSO PROCESSO</p><h2>Clareza em cada etapa.</h2></div></div>
-      <div class="timeline">
-        <article class="step reveal"><span>01</span><div><h3>Descoberta</h3><p>Entendemos negócio, público, objetivo, contexto e problema real.</p></div></article>
-        <article class="step reveal"><span>02</span><div><h3>Estratégia</h3><p>Definimos posicionamento, arquitetura, conteúdo e direção visual.</p></div></article>
-        <article class="step reveal"><span>03</span><div><h3>Design & Desenvolvimento</h3><p>Transformamos a estratégia em uma experiência digital memorável.</p></div></article>
-        <article class="step reveal"><span>04</span><div><h3>Entrega & Evolução</h3><p>Publicamos, refinamos e preparamos o projeto para crescer com você.</p></div></article>
+          <div class="device-wrap">
+            <div class="laptop">
+              <div class="laptop-screen">
+                <div class="fake-nav"><span>NEXORA</span><div></div></div>
+                <div class="fake-hero">
+                  <p>TECNOLOGIA QUE</p>
+                  <h4>impulsiona o <em>amanhã.</em></h4>
+                  <button>Conhecer soluções</button>
+                </div>
+                <div class="fake-cubes"><i></i><i></i><i></i></div>
+              </div>
+              <div class="laptop-base"></div>
+            </div>
+
+            <div class="phone">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <small>PULSE</small>
+                <h4>Energia para mover o que importa.</h4>
+                <div class="wind-line"></div>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="section-shell section-block transformation">
-      <div class="before-copy reveal"><p class="eyebrow"><span></span> ANTES & DEPOIS</p><h2>Do comum ao <strong>inesquecível.</strong></h2><p>Um bom redesign não troca apenas cores. Ele muda a forma como o mercado enxerga o negócio.</p></div>
-      <div class="comparison reveal">
-        <div class="compare-card old"><div class="compare-label">ANTES</div><div class="fake-site light"><span class="tiny-nav"></span><b>Soluções para seu negócio</b><span>Comunicação genérica e pouca diferenciação.</span><button>SAIBA MAIS</button></div></div>
-        <span class="compare-arrow">→</span>
-        <div class="compare-card new"><div class="compare-label">DEPOIS</div><div class="fake-site dark"><span class="tiny-nav"></span><b>Soluções que impulsionam <i>resultados.</i></b><span>Marca, design e experiência trabalhando juntos.</span><button>INICIAR PROJETO</button></div></div>
+    <section id="processo" class="section shell process">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">NOSSO PROCESSO</p>
+          <h2>Clareza em cada etapa.</h2>
+        </div>
+        <p>Sem processo confuso. Cada fase existe para reduzir risco, alinhar expectativas e acelerar a execução.</p>
+      </div>
+
+      <div class="process-grid">
+        <article class="step reveal"><span>01</span><h3>Descoberta</h3><p>Entendemos negócio, público, objetivos e gargalos.</p></article>
+        <article class="step reveal"><span>02</span><h3>Estratégia</h3><p>Definimos direção, prioridades e estrutura da solução.</p></article>
+        <article class="step reveal"><span>03</span><h3>Design & Desenvolvimento</h3><p>Transformamos a estratégia em uma experiência digital consistente.</p></article>
+        <article class="step reveal"><span>04</span><h3>Entrega & Evolução</h3><p>Publicamos, medimos e refinamos o que realmente importa.</p></article>
+      </div>
+    </section>
+
+    <section id="sobre" class="transformation shell">
+      <div class="trans-copy reveal">
+        <p class="eyebrow">ANTES & DEPOIS</p>
+        <h2>Do comum ao <em>inesquecível.</em></h2>
+        <p>Design não é decoração. É percepção, clareza e confiança.</p>
+      </div>
+
+      <div class="before-after reveal">
+        <div class="shot before">
+          <span>ANTES</span>
+          <div class="old-site">
+            <small>EMPRESA</small>
+            <h4>Soluções para o seu negócio</h4>
+            <p>Texto genérico, pouca hierarquia e baixa diferenciação.</p>
+            <i></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="ba-arrow">→</div>
+        <div class="shot after">
+          <span>DEPOIS</span>
+          <div class="new-site">
+            <small>PIXELHOUSE</small>
+            <h4>Soluções que <em>impulsionam resultados.</em></h4>
+            <div class="new-visual"><i></i><i></i><i></i></div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contato" class="cta-section">
-      <div class="section-shell cta-inner">
+      <div class="cta-glow"></div>
+      <div class="shell cta-inner">
         <div class="cta-copy reveal">
-          <p class="eyebrow"><span></span> VAMOS CONSTRUIR ALGO EXTRAORDINÁRIO?</p>
-          <h2>Seu próximo projeto pode começar <strong>aqui.</strong></h2>
-          <p>Conte o que você quer construir. A conversa inicial é simples, direta e sem compromisso.</p>
-          <a class="btn whatsapp" href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%21%20Vi%20o%20site%20da%20PixelHouse%20e%20quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">Falar com a PixelHouse <span>↗</span></a>
+          <p class="eyebrow">VAMOS CONSTRUIR ALGO EXTRAORDINÁRIO?</p>
+          <h2>Seu próximo projeto pode começar aqui.</h2>
+          <p>Conte o que você precisa. A PixelHouse transforma a ideia em direção, design e execução.</p>
+          <a class="btn primary whatsapp-link" href="#" target="_blank" rel="noopener">Falar com a PixelHouse <span>↗</span></a>
         </div>
-        <div class="cta-cubes reveal" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+
+        <div class="cta-art" aria-hidden="true">
+          <div class="cube c1"></div>
+          <div class="cube c2"></div>
+          <div class="cube c3"></div>
+          <div class="cube c4"></div>
+          <div class="cube c5"></div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer section-shell">
-    <a class="brand" href="#top"><span class="brand-mark"><i></i><b></b><em></em></span><span class="brand-word">PIXEL<span>HOUSE</span></span></a>
+  <footer class="footer shell">
+    <a class="brand" href="#top">
+      <span class="brand-mark"><i class="sq a"></i><i class="sq b"></i><i class="tri"></i></span>
+      <span class="brand-name">PIXEL<span>HOUSE</span></span>
+    </a>
     <p>Design que gera resultados.</p>
-    <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">IN</a><a href="#contato" aria-label="WhatsApp">WA</a></div>
+    <div class="footer-links">
+      <a href="https://instagram.com/pixelhouse.agency" target="_blank" rel="noopener">Instagram</a>
+      <a href="#contato">Contato</a>
+    </div>
   </footer>
 
-  <a class="floating-wa" href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%21%20Vi%20o%20site%20da%20PixelHouse%20e%20quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener" aria-label="Falar com a PixelHouse no WhatsApp">WA</a>
-  <script src="./script.js"></script>
+  <a class="whatsapp-float whatsapp-link" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WA</a>
+
+  <script src="script.js"></script>
 </body>
 </html>
