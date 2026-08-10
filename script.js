@@ -24,7 +24,7 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 // Substitua pelo WhatsApp da PixelHouse no formato DDI+DDD+numero.
 // Exemplo: 5511999999999
-const whatsappNumber = '5511954394303';
+const whatsappNumber = '55SEUNUMERO';
 const message = encodeURIComponent('Olá! Vi o site da PixelHouse e quero conversar sobre um projeto.');
 document.querySelectorAll('.whatsapp-link').forEach(link => {
   link.href = `https://wa.me/${whatsappNumber}?text=${message}`;

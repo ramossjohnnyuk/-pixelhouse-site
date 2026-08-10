@@ -128,3 +128,41 @@ h1 em,h2 em,h4 em{font-style:normal;color:var(--blue)}
   .cta-section{min-height:100vh}.cta-copy{padding-top:85px}.cta-art{height:300px}
   .whatsapp-float{width:48px;height:48px}
 }
+
+
+/* V4 — projetos selecionados */
+.project-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+.project-card{border:1px solid #202027;background:linear-gradient(145deg,#0b0b0f,#070708);border-radius:24px;padding:24px;overflow:hidden;position:relative}
+.project-card:first-child{grid-row:span 2;min-height:720px}
+.project-card:not(:first-child){min-height:350px}
+.project-top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.project-kicker,.project-index{font-size:9px;letter-spacing:.16em;color:#707178}
+.project-index{color:#6f88ff}
+.project-visual{height:62%;min-height:260px;margin:26px 0 24px;border-radius:18px;position:relative;overflow:hidden;background:#0a0a0d;border:1px solid #18181e}
+.project-copy h3{font-size:32px;letter-spacing:-.045em;margin:0 0 10px}.project-copy p{color:#888991;line-height:1.65;font-size:13px;max-width:540px;margin:0}
+.project-folia .project-visual{background:radial-gradient(circle at 25% 25%,rgba(92,41,255,.4),transparent 28%),linear-gradient(150deg,#12082a,#07070b 64%)}
+.folia-ticket{position:absolute;left:8%;top:16%;width:72%;aspect-ratio:4/3;border:1px solid #5b43d1;background:linear-gradient(145deg,rgba(78,44,198,.36),rgba(11,9,23,.88));transform:perspective(800px) rotateY(-12deg) rotateZ(-4deg);padding:9%;box-shadow:0 35px 70px rgba(0,0,0,.5)}
+.folia-ticket span{font-size:9px;letter-spacing:.18em;color:#a99af7}.folia-ticket strong{display:block;font-size:48px;line-height:.9;letter-spacing:-.06em;margin-top:18%}.folia-ticket b{position:absolute;bottom:9%;left:9%;font-size:11px;letter-spacing:.14em;color:#d9d4ff}
+.folia-glow{position:absolute;width:220px;height:220px;border-radius:50%;right:-70px;bottom:-70px;background:#4c2cff;filter:blur(55px);opacity:.45}
+.project-pizza .project-visual{background:radial-gradient(circle at 70% 40%,rgba(199,151,87,.17),transparent 30%),#0a0908}
+.pizza-mark{position:absolute;left:12%;top:15%;font-family:Georgia,serif;font-size:130px;color:#d9b06f;line-height:1;opacity:.95}.pizza-box{position:absolute;width:45%;aspect-ratio:1;right:10%;bottom:11%;border:1px solid #5a472f;background:linear-gradient(145deg,#17120d,#0a0806);transform:perspective(700px) rotateX(58deg) rotateZ(34deg);box-shadow:0 30px 45px rgba(0,0,0,.5)}.pizza-box span{position:absolute;inset:45% 8% auto;text-align:center;font-size:7px;letter-spacing:.14em;color:#c89d61}
+.project-auto .project-visual{background:radial-gradient(circle at 75% 50%,rgba(202,29,29,.2),transparent 24%),linear-gradient(150deg,#130506,#070708 65%)}
+.car-silhouette{position:absolute;left:8%;right:8%;bottom:20%;height:45%}.car-body{position:absolute;left:8%;right:4%;bottom:14%;height:40%;background:linear-gradient(180deg,#d72525,#631010);border-radius:55% 24% 16% 19%/60% 45% 30% 35%;transform:skewX(-8deg);box-shadow:0 0 36px rgba(215,37,37,.18)}.car-body:before{content:"";position:absolute;width:44%;height:85%;left:30%;top:-52%;background:#6e0e0e;clip-path:polygon(17% 100%,38% 0,78% 0,100% 100%)}
+.wheel{position:absolute;width:18%;aspect-ratio:1;border-radius:50%;background:#080808;border:5px solid #25252a;bottom:0}.w1{left:19%}.w2{right:13%}.speed-line{position:absolute;height:1px;background:linear-gradient(90deg,transparent,#9a2323,transparent);right:3%;width:47%}.l1{top:24%}.l2{top:38%;width:58%}.l3{top:52%;width:35%}
+.case-note{margin-top:22px;border-top:1px solid #1d1d22;padding-top:24px;display:flex;justify-content:space-between;gap:40px;color:#777880}.case-note span{font-size:9px;letter-spacing:.14em;color:#6681ff}.case-note p{font-size:12px;max-width:570px;line-height:1.6;margin:0}
+
+@media(max-width:900px){
+  .project-grid{grid-template-columns:1fr}
+  .project-card:first-child{grid-row:auto;min-height:600px}
+  .project-card:not(:first-child){min-height:480px}
+  .project-visual{height:66%}
+  .case-note{flex-direction:column;gap:12px}
+}
+@media(max-width:520px){
+  .project-card{padding:18px;border-radius:18px}
+  .project-card:first-child,.project-card:not(:first-child){min-height:520px}
+  .project-visual{height:60%;min-height:280px;margin:20px 0}
+  .project-copy h3{font-size:29px}
+  .folia-ticket strong{font-size:36px}
+  .pizza-mark{font-size:105px}
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <radialGradient id="g" cx="78%" cy="55%" r="55%"><stop stop-color="#1d43d6" stop-opacity=".45"/><stop offset="1" stop-color="#050505" stop-opacity="0"/></radialGradient>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a1a20"/><stop offset="1" stop-color="#08080a"/></linearGradient>
+</defs>
+<rect width="1200" height="630" fill="#050505"/><rect width="1200" height="630" fill="url(#g)"/>
+<g transform="translate(90 92)">
+<rect x="0" y="18" width="34" height="34" fill="#1b1b1f"/><rect x="28" y="0" width="34" height="34" fill="#2658ff"/><path d="M36 30h38L36 68z" fill="#fff"/>
+<text x="96" y="47" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="10" fill="#fff">PIXEL<tspan fill="#5f7cff">HOUSE</tspan></text>
+</g>
+<text x="90" y="310" font-family="Arial,sans-serif" font-size="72" font-weight="700" fill="#fff">Design que gera</text>
+<text x="90" y="390" font-family="Arial,sans-serif" font-size="72" font-weight="700" fill="#5f7cff">resultados.</text>
+<text x="90" y="468" font-family="Arial,sans-serif" font-size="24" fill="#9b9ba3">Branding • Websites • Automação • IA</text>
+<g transform="translate(835 168) rotate(-15)">
+<rect width="210" height="145" fill="url(#b)" stroke="#3a3a44"/><rect x="-80" y="145" width="290" height="120" fill="url(#b)" stroke="#3a3a44"/><rect x="86" y="70" width="35" height="150" fill="#2658ff"/>
+</g>
+</svg>
