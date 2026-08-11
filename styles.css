@@ -275,3 +275,27 @@ h1 em,h2 em,h4 em{font-style:normal;color:var(--blue)}
     gap:16px;
   }
 }
+.brand-logo{
+  display:block;
+  width:auto;
+  height:22px;
+  max-width:165px;
+  object-fit:contain;
+}
+
+.footer .brand-logo{
+  height:24px;
+  max-width:180px;
+}
+
+@media(max-width:520px){
+  .brand-logo{
+    height:18px;
+    max-width:145px;
+  }
+
+  .footer .brand-logo{
+    height:20px;
+    max-width:155px;
+  }
+}
